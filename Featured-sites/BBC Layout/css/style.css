@@ -1,0 +1,95 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body{
+     font-family: 'Roboto', sans-serif;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header{
+     background: black;
+     list-style: none;
+     height: 100px;
+}
+
+li{
+     width: 100px;
+     float: left;
+     background: black;
+     list-style: none;
+     padding: 5px;
+}
+.float{
+     float: left;
+}
+
+.big{
+     width: 50%;
+     height: 300px;
+     padding: 5px;
+}
+
+.foursmall{
+     width: 25%;
+     height: 150px;
+     padding: 5px;
+}
+
+.news{
+     width: 33.33%;
+}
+
+
+.AfterHeader{
+     width: 50%;
+     height: 50%;
+     padding: 10px
+}
+#date{
+     font-size: 30px;
+     margin: 100px 0 0 300px;
+     
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+a:link{
+     color: white;
+     text-decoration: none;
+     font-size: 20px;
+}
+a:hover{
+     color:gold
+}
+main section{
+     background-image: 
+          url("http://placekitten.com/300/150");
+     color: white;     
+}
+main .big{
+     background-image:
+          url("http://placekitten.com/800/500");
+}
